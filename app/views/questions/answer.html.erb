@@ -1,0 +1,14 @@
+<div class="blocknote">
+  <%=params[:question]%>
+  <br>
+  <p>-You</p>
+</div>
+
+<div class="answer blocknote">
+  <strong><%=@answer %></strong>
+  <br>
+  <p>-Your Coach</p>
+<br>
+</div>
+
+<p><%= link_to "Ask a new question",ask_path %></p>
